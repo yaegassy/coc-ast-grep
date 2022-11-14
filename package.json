@@ -1,0 +1,78 @@
+{
+  "name": "coc-ast-grep",
+  "version": "0.0.1",
+  "description": "coc.nvim extension for ast-grep language server",
+  "author": "yaegassy <yosstools@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "keywords": [
+    "coc.nvim",
+    "ast-grep",
+    "vim",
+    "neovim"
+  ],
+  "engines": {
+    "coc": "^0.0.80"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaegassy/coc-ast-grep"
+  },
+  "scripts": {
+    "lint": "eslint src --ext ts",
+    "clean": "rimraf lib",
+    "watch": "node esbuild.js --watch",
+    "build": "node esbuild.js",
+    "prepare": "node esbuild.js"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120,
+    "semi": true
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.3",
+    "@types/which": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "coc.nvim": "^0.0.82",
+    "esbuild": "^0.15.13",
+    "eslint": "^8.27.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "which": "^3.0.0"
+  },
+  "activationEvents": [
+    "onLanguage:typescript"
+  ],
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "coc-ast-grep configuration",
+      "properties": {
+        "astGrep.enable": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable coc-ast-grep extension"
+        },
+        "astGrep.serverPath": {
+          "scope": "window",
+          "type": "string",
+          "default": "sg",
+          "description": "Specify the language server binary path. If the binary is not found, use the binary included in the extension."
+        },
+        "astGrep.configPath": {
+          "scope": "resource",
+          "type": "string",
+          "description": "Customize ast-grep config file path relative."
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "@ast-grep/cli": "0.1.9"
+  }
+}
