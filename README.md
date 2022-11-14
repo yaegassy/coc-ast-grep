@@ -4,6 +4,8 @@
 
 [coc.nvim](https://github.com/neoclide/coc.nvim) extension for [ast-grep](https://github.com/ast-grep/ast-grep) language server
 
+<img width="780" alt="coc-ast-grep-screenshot" src="https://user-images.githubusercontent.com/188642/201776507-fc061532-6ef7-4368-9e03-1d50fe5107aa.png">
+
 ## Install
 
 You need to have [coc.nvim](https://github.com/neoclide/coc.nvim) installed for this extension to work.
