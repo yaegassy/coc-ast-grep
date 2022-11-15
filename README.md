@@ -16,6 +16,18 @@ You need to have [coc.nvim](https://github.com/neoclide/coc.nvim) installed for 
 Plug 'yaegassy/coc-ast-grep', {'do': 'yarn install --frozen-lockfile'}
 ```
 
+## Usage
+
+The ast-grep language server requires `sgconfig.yml` in the project root to work properly.
+
+- See: <https://ast-grep.github.io/guide/rule-config.html>
+
+### !!Known Issues!!
+
+The language client will crash if `sgconfig.yml` is not in the project root or if the rules are not properly configured.
+
+I think it needs to be adjusted either on the ast-grep language server (`sg lsp`) side or on the `coc.nvim` side.
+
 ## !!Note!!
 
 Currently the extension is only enabled in `typescript` files.
@@ -29,12 +41,6 @@ Currently the extension is only enabled in `typescript` files.
   // ...snip
 }
 ```
-
-## Usage
-
-The ast-grep language server requires `sgconfig.yml` in the project root to work properly.
-
-- See: <https://ast-grep.github.io/guide/rule-config.html>
 
 ## Configuration options
 
