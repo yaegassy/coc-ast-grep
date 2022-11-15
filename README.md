@@ -22,7 +22,7 @@ The ast-grep language server requires `sgconfig.yml` in the project root to work
 
 - See: <https://ast-grep.github.io/guide/rule-config.html>
 
-### !!Known Issues!!
+## !!Known Issues!!
 
 The language client will crash if `sgconfig.yml` is not in the project root or if the rules are not properly configured.
 
