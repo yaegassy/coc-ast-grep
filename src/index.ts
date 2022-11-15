@@ -59,7 +59,6 @@ function activateLsp(context: ExtensionContext) {
   client.start();
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function activate(context: ExtensionContext): Promise<void> {
   if (!workspace.getConfiguration('astGrep').get('enable', true)) return;
 
