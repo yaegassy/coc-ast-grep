@@ -2,37 +2,37 @@
 # yarn lockfile v1
 
 
-"@ast-grep/cli-darwin-arm64@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@ast-grep/cli-darwin-arm64/-/cli-darwin-arm64-0.5.3.tgz#f191fe4690c301b95e26667c99c01c7675668524"
-  integrity sha512-bylxPoAIQ3X5NtdbBD6MsZvThDU6wzherhhQZnXktXmpZwHMwklz//79pvaoJV7nI8Zegd5/5kPfwObjZKrgWA==
+"@ast-grep/cli-darwin-arm64@0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/cli-darwin-arm64/-/cli-darwin-arm64-0.5.6.tgz#6ad02938ad504f0b0bead8cf2f976f6742683b8c"
+  integrity sha512-NQKUzyDOx4oQ9rTztHWaUc9FcN9xlZEpba1ihPow4rILQjaEyerjnUTgiQdetTjzpcgq87rdEbfuIMbKC0Yysw==
 
-"@ast-grep/cli-darwin-x64@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@ast-grep/cli-darwin-x64/-/cli-darwin-x64-0.5.3.tgz#f37d34c5a590a6cb5b28977daf33439bd5fc9fa0"
-  integrity sha512-gxyVl6spHtxS9f90RI0RDA65aWH6BQi3C/Yah2YOaVLckGTJcloFmNmeL0W/2UP81kIw5ZGueapPH4yf1yMA9g==
+"@ast-grep/cli-darwin-x64@0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/cli-darwin-x64/-/cli-darwin-x64-0.5.6.tgz#2b2e66dab064db1f7ecd383e72e1afe1bb788523"
+  integrity sha512-oOnMA58XtzvOBbG+dyquVjeklb2yjljluxpOpv0f2mdBGJL2SPz7IH/lJXm0dwpFaqz3/ChT7m+uXK2j49YZ1Q==
 
-"@ast-grep/cli-linux-x64-gnu@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@ast-grep/cli-linux-x64-gnu/-/cli-linux-x64-gnu-0.5.3.tgz#765b304ba21b69eeeb4ba847a7cf75320081b770"
-  integrity sha512-SU4X/vkg4/N2ihBTeMv+Ap3ryPwdmezlKQFx6/POTqlli0K5pRXlzX8B5ZyBZ7amK1a7/2SJuu7j125AUMGQSQ==
+"@ast-grep/cli-linux-x64-gnu@0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/cli-linux-x64-gnu/-/cli-linux-x64-gnu-0.5.6.tgz#30d078726868bfb2bb4449f099efc0514ce15273"
+  integrity sha512-OH4CweRXm9PQKhBrzZx9vnClWsZ2Pq2r87gLmWnEq1RDmm9dlEmYz+GGtwy6p8GeJDesqP4VhZ3F0Ng9Gm8ehw==
 
-"@ast-grep/cli-win32-x64-msvc@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@ast-grep/cli-win32-x64-msvc/-/cli-win32-x64-msvc-0.5.3.tgz#dafd5710c37b06bca15eeae7bca80b5cc3268970"
-  integrity sha512-p4yJ247nNMkb5uAz+aR1V59TZdLMS4Q2skvf2XnMeOOW2opYaJ0Gd++lF4TD7DQRCpZL6NU44TWmacMjubEYOQ==
+"@ast-grep/cli-win32-x64-msvc@0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/cli-win32-x64-msvc/-/cli-win32-x64-msvc-0.5.6.tgz#2d06d03a78a7862470b415aa88b47a99b2c871be"
+  integrity sha512-7fM0MwJnR5+yw6UEPK1GlMjxum2l9SpOeFFw60k0DTRpAvy5W8e2bCUy4QB8BIOhlXCH4mFkUngFOU2/b8ek+g==
 
-"@ast-grep/cli@0.5.3":
-  version "0.5.3"
-  resolved "https://registry.yarnpkg.com/@ast-grep/cli/-/cli-0.5.3.tgz#a892867cc7a0512646433b86f97486dd24899e7d"
-  integrity sha512-vjt2vF0BPDjVKDcpz9YYh40aHU5rs5ub9dOl+JvfgWwe2cyhH46FMOaI5LCJy32hp2I6mNSDPdqjgR2nszW7qw==
+"@ast-grep/cli@0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@ast-grep/cli/-/cli-0.5.6.tgz#92f7753cb8096e6fd909d115a90ceb57b352c5bb"
+  integrity sha512-IzK+EjjU40GfedeU2Zs8JXW8UmY0rEmgMY43llQTBUqIiFGbibtkIHkunZBfHuMTvK5FdgG93k+EEYopHgqV+w==
   dependencies:
     detect-libc "2.0.1"
   optionalDependencies:
-    "@ast-grep/cli-darwin-arm64" "0.5.3"
-    "@ast-grep/cli-darwin-x64" "0.5.3"
-    "@ast-grep/cli-linux-x64-gnu" "0.5.3"
-    "@ast-grep/cli-win32-x64-msvc" "0.5.3"
+    "@ast-grep/cli-darwin-arm64" "0.5.6"
+    "@ast-grep/cli-darwin-x64" "0.5.6"
+    "@ast-grep/cli-linux-x64-gnu" "0.5.6"
+    "@ast-grep/cli-win32-x64-msvc" "0.5.6"
 
 "@esbuild/android-arm@0.15.13":
   version "0.15.13"
