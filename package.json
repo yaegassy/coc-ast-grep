@@ -73,6 +73,6 @@
     }
   },
   "dependencies": {
-    "@ast-grep/cli": "0.33.1"
+    "@ast-grep/cli": "0.34.3"
   }
 }
